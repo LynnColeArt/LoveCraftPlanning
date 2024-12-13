@@ -108,7 +108,7 @@ Local processing puts creators in control of their work:
 Local processing offers potential environmental benefits by utilizing existing computing resources rather than requiring dedicated data center capacity. While this may not be a primary consideration for many users, it represents an additional advantage of enabling local processing options for AI music generation.
 
 ## Open Development
-This project is released under the GNU General Public License v3.0, ensuring it remains free, open, and community-driven. This choice reflects our belief that tools for creative expression should be transparent and accessible to all who wish to use, study, or improve them.
+This project will be released under the GNU General Public License v3.0, ensuring it remains free, open, and community-driven. This choice reflects our belief that tools for creative expression should be transparent and accessible to all who wish to use, study, or improve them.
 
 ## Conclusion
 We're building more than just another AI music tool. We're creating an open platform that respects music's fundamental role in human expression while embracing new technological possibilities. By combining accessibility with power, simplicity with control, we're working to advance both musical creation and human creativity.
