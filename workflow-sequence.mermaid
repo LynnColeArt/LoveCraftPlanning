@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant User
+    participant Chat
+    participant Project
+    participant ComfyUI
+    
+    User->>Project: Create New Project
+    Project->>Chat: Initialize Context
+    User->>Chat: Describe Vision
+    Chat->>Project: Update Parameters
+    User->>Project: Upload/Paste Assets
+    Project->>ComfyUI: Configure Nodes
+    User->>ComfyUI: Adjust Parameters
+    ComfyUI->>Project: Generate Output
+    Project->>User: Return Results

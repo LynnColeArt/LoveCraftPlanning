@@ -1,0 +1,26 @@
+flowchart TD
+    subgraph Frontend
+        UI[Project UI]
+        Chat[Chat Interface]
+        Params[Parameter Controls]
+    end
+
+    subgraph Core
+        GPT4All[GPT4All Engine]
+        ProjectMgr[Project Manager]
+        AssetStore[Asset Storage]
+    end
+
+    subgraph ComfyUI
+        Nodes[Custom Nodes]
+        Pipeline[Generation Pipeline]
+        Render[Audio Renderer]
+    end
+
+    UI --> ProjectMgr
+    Chat --> GPT4All
+    GPT4All --> Params
+    Params --> Nodes
+    ProjectMgr --> AssetStore
+    Nodes --> Pipeline
+    Pipeline --> Render
