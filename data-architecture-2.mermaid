@@ -1,0 +1,46 @@
+flowchart TD
+    subgraph Frontend
+        UI[Web Interface]
+        Chat[Chat Interface]
+        PM[Parameter Controls]
+    end
+
+    subgraph RAG System
+        GPT[GPT4All]
+        VDB[(Vector DB)]
+        CP[Context Processor]
+    end
+
+    subgraph Schema
+        subgraph Core Tables
+            INS[Instruments]
+            GEN[Genres]
+            EMO[Emotions]
+        end
+        
+        subgraph Relationship Tables
+            IE[Instrument-Emotion Maps]
+            IG[Instrument-Genre Maps]
+            GF[Genre Fusion Maps]
+            PL[Physical Limits]
+        end
+        
+        subgraph Extended Features
+            IMP[Impossible Combinations]
+            ET[Extended Techniques]
+            TD[Temporal Dynamics]
+        end
+    end
+
+    subgraph Generation
+        MIDI[MIDI Generator]
+        SA[Stable Audio]
+    end
+
+    UI --> Chat
+    Chat --> GPT
+    GPT --> CP
+    CP --> VDB
+    VDB --> Schema
+    PM --> MIDI
+    MIDI --> SA
