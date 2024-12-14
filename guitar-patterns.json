@@ -1,0 +1,63 @@
+{
+  "instruments": {
+    "guitar": {
+      "roles": {
+        "rhythm": {
+          "common_patterns": [
+            {
+              "name": "basic_strumming",
+              "pattern_type": "eighth_notes",
+              "accent_pattern": "down_up_down_up",
+              "common_genres": ["rock", "pop", "country"]
+            },
+            {
+              "name": "palm_muted_chugging",
+              "pattern_type": "sixteenth_notes",
+              "technique": "palm_mute",
+              "common_genres": ["metal", "punk"]
+            },
+            {
+              "name": "reggae_upstrokes",
+              "pattern_type": "offbeat_eighths",
+              "accent_pattern": "up_up_up_up",
+              "common_genres": ["reggae", "ska"]
+            }
+          ],
+          "common_voicings": [
+            "power_chords",
+            "barre_chords",
+            "open_chords"
+          ]
+        },
+        "lead": {
+          "common_patterns": [
+            {
+              "name": "scalar_runs",
+              "pattern_type": "sequential",
+              "techniques": ["alternate_picking", "legato"],
+              "common_genres": ["rock", "metal"]
+            },
+            {
+              "name": "melodic_phrases",
+              "pattern_type": "mixed_rhythm",
+              "techniques": ["bending", "vibrato"],
+              "common_genres": ["blues", "rock"]
+            },
+            {
+              "name": "arpeggiated_solos",
+              "pattern_type": "broken_chords",
+              "techniques": ["sweep_picking", "tapping"],
+              "common_genres": ["metal", "prog"]
+            }
+          ],
+          "common_scales": [
+            "pentatonic_minor",
+            "blues_scale",
+            "natural_minor",
+            "mixolydian"
+          ]
+        }
+      }
+    }
+  }
+}
