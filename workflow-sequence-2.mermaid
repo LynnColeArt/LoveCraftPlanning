@@ -1,0 +1,32 @@
+sequenceDiagram
+    participant User
+    participant Chat
+    participant LLM
+    participant LORA
+    participant Project
+    participant Magenta
+    participant SA
+
+    User->>Project: Create Project
+    Project->>Chat: Initialize Context
+    User->>Chat: Describe Vision
+    Chat->>LLM: Process Request
+    LLM->>LORA: Generate Musical Elements
+    LORA->>Project: Update Parameters
+    Project->>Magenta: Generate MIDI
+    opt Audio Generation
+        Magenta->>SA: Render Audio
+        SA->>Project: Return Audio
+    end
+    Project->>User: Return Results
+    
+    loop Iteration
+        User->>Project: Modify Parameters
+        Project->>LORA: Regenerate
+        LORA->>Magenta: Update MIDI
+        opt Audio Update
+            Magenta->>SA: Re-render
+            SA->>Project: Return New Audio
+        end
+        Project->>User: Return Updated Results
+    end
