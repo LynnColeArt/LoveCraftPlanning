@@ -5,8 +5,6 @@
 A Manifesto and Project Outline By Lynn Cole  
 From the Office of the High Priestess of Dada.
 
-**The Stakes**
-
 I've decided it's time for AI Music to grow up.
 
 We've had our fun.
