@@ -3,6 +3,7 @@ flowchart TD
         UI[Web Interface]
         Chat[Chat Interface]
         PM[Parameter Controls]
+        VS[Version System]
     end
 
     subgraph RAG System
@@ -15,6 +16,27 @@ flowchart TD
             ARC[/Archived Partitions/]
         end
         CP[Context Processor]
+    end
+
+    subgraph Analysis
+        TML[/Terrible Music Library/]
+        MTS[/Music Theory Statistics/]
+    end
+
+    subgraph LORA Modules
+        TH[Theory LORA]
+        GE[Genre LORA]
+        HA[Harmony LORA]
+        RH[Rhythm LORA]
+        OR[Orchestration LORA]
+        TR[20th Century Trends LORA]
+        QF[Quality Filter]
+    end
+
+    subgraph Assets
+        PRJ[Project Files]
+        MIDI[MIDI Assets]
+        AUD[Audio Assets]
     end
 
     subgraph Schema
@@ -30,16 +52,11 @@ flowchart TD
             GF[Genre Fusion Maps]
             PL[Physical Limits]
         end
-        
-        subgraph Extended Features
-            IMP[Impossible Combinations]
-            ET[Extended Techniques]
-            TD[Temporal Dynamics]
-        end
     end
 
     subgraph Generation
-        MIDI[MIDI Generator]
+        NOT[Notation Generator]
+        MAG[Magenta]
         SA[Stable Audio]
     end
 
@@ -52,5 +69,20 @@ flowchart TD
     PM2 --> ACT
     PM2 --> ARC
     SVS --> Schema
-    PM --> MIDI
-    MIDI --> SA
+    
+    TML --> QF
+    MTS --> TR
+    TH --> TR
+    TR --> GE
+    GE --> HA
+    HA --> RH
+    RH --> OR
+    OR --> QF
+    QF --> NOT
+    NOT --> MAG
+    MAG --> |Optional| SA
+
+    PM --> NOT
+    VS --> PRJ
+    PRJ --> MIDI
+    MIDI --> AUD
