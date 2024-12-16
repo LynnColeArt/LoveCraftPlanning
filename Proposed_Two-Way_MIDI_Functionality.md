@@ -81,7 +81,7 @@ The combination of two-way MIDI functionality and recursive self-improvement wou
      - Harmonic preference for minor tonalities.
 
 4. **Future Composition**:
-   - When the user requests another folk-rock song, the AI would incorporate these preferences into its initial output, starting at 100 BPM with slide guitar and minor harmonies.
+   - Over time, this would become part of the way the system customizes content for the user. 
 
 ### Ethical Considerations
 
