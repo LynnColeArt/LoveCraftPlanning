@@ -1,0 +1,56 @@
+flowchart TD
+    subgraph Frontend
+        UI[Web Interface]
+        Chat[Chat Interface]
+        PM[Parameter Controls]
+    end
+
+    subgraph RAG System
+        GPT[GPT4All]
+        subgraph Vector Storage
+            SVS[Streaming Vector Store]
+            EL[Encryption Layer]
+            PM2[Partition Manager]
+            ACT[/Active Partitions/]
+            ARC[/Archived Partitions/]
+        end
+        CP[Context Processor]
+    end
+
+    subgraph Schema
+        subgraph Core Tables
+            INS[Instruments]
+            GEN[Genres]
+            EMO[Emotions]
+        end
+        
+        subgraph Relationship Tables
+            IE[Instrument-Emotion Maps]
+            IG[Instrument-Genre Maps]
+            GF[Genre Fusion Maps]
+            PL[Physical Limits]
+        end
+        
+        subgraph Extended Features
+            IMP[Impossible Combinations]
+            ET[Extended Techniques]
+            TD[Temporal Dynamics]
+        end
+    end
+
+    subgraph Generation
+        MIDI[MIDI Generator]
+        SA[Stable Audio]
+    end
+
+    UI --> Chat
+    Chat --> GPT
+    GPT --> CP
+    CP --> SVS
+    SVS --> EL
+    EL --> PM2
+    PM2 --> ACT
+    PM2 --> ARC
+    SVS --> Schema
+    PM --> MIDI
+    MIDI --> SA
