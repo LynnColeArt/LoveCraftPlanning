@@ -245,3 +245,19 @@ Mass adoption demands that the tool works for everyone—not just GPU enthusiast
 
 - **The opportunity**: Optimize the system for broad accessibility. Macs offer **neural chip acceleration** for machine learning, while AMD ensures affordability for budget-conscious creators. These optimizations are straightforward, achievable, and **essential for inclusivity**.
 
+- **Conclusion**
+
+We tried it the other way. Let's do this right.
+
+We need to start building a community of artists, musicians, and tech enthusiasts who believe in these principles and ideas. If you would like to contribute code written by hand, or with an AI based reasoning model, your contributions are welcome. If you have the ability to help us train, and you want to contribute training resources and time, we need you. We need crazy and innovative solutions, out of the box thinkers.
+
+It's time to build a fairer world.
+
+Let's do this together.
+
+**Contact me at:**  
+LynnColeArt@Gmail.com  
+Bluesky: @lynncole.bsky.social  
+X: @PriestessOfDada
+
+
