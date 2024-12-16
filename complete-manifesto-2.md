@@ -224,9 +224,6 @@ There's some truth to this, and the concern is valid. So, to address this, anyth
 **Permissive Licensing for People, Not Corporations**  
 The exciting thing about licensing an app under GPL 
 
-
-xxxx
-
 ## Challenges: What We Need to Solve
 
 To build this system the right way—one that transforms creative workflows and pushes the boundaries of music—we need to address some critical challenges. These are opportunities for collaboration, innovation, and shared investment in the future of AI music.
