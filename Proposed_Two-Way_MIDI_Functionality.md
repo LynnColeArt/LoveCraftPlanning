@@ -63,9 +63,6 @@ The combination of two-way MIDI functionality and recursive self-improvement wou
 2. **Educational Insights**:
    - The system could explain the impact of user edits, offering insights into music theory and composition techniques.
 
-3. **Cross-User Learning**:
-   - Aggregated data from multiple users (anonymized for privacy) would allow the system to identify broader trends and refine its base model for all users.
-
 ### Example Workflow
 
 1. **Initial Prompt**:
