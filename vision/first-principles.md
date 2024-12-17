@@ -77,13 +77,12 @@ Our vision is a democratizing technology that doesn't just generate music, but t
 - Anonymization of all potentially identifiable information
 - No third-party data sharing
 - Robust encryption of any stored user data
-- Clear, comprehensible privacy policies written in plain language
 
 ## Technological Development Philosophy
 
 Our approach recognizes that AI is not a replacement for human creativity, but a collaborative tool. We aim to build systems that:
 - Amplify artistic potential
-- Provide new creative pathways
+- Provide new creative gateways, and hopefully opportunities for artists
 - Respect individual and collective creative agency
 - Maintain the fundamental humanity of the creative process
 
