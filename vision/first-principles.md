@@ -79,13 +79,6 @@ Our vision is a democratizing technology that doesn't just generate music, but t
 - Robust encryption of any stored user data
 - Clear, comprehensible privacy policies written in plain language
 
-### Creative Respect Protocols
-- Explicit artist consent mechanisms
-- Opt-in/opt-out frameworks for creative content usage
-- Transparent attribution systems
-- Mechanisms for artists to control their digital representation
-- Financial consideration models for creative contributions
-
 ## Technological Development Philosophy
 
 Our approach recognizes that AI is not a replacement for human creativity, but a collaborative tool. We aim to build systems that:
