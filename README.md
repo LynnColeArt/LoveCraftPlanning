@@ -1,4 +1,4 @@
-#Love Craft
+# Love Craft
 
 An open source conversational music generation project based on public domain data.
 
