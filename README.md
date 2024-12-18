@@ -8,7 +8,7 @@ The things I'm proposing in the documentation here can't be done. It's not a lim
 
 Actually, and in fact, it's a problem with the way music notation works.
 
-So you're going to have to bear with me while I reinvent what music is.
+So bear with me while I take a couple of weeks to reinvent what music is.
 
 We should be back up and running soon.
 
